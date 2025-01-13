@@ -21,6 +21,7 @@ variable "ttl" {
 
 variable "records" {
   type = list(any)
+  default = []
 }
 
 variable "target_resource_id" {
